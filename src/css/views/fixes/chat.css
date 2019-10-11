@@ -1,0 +1,130 @@
+.chat {
+    padding-right: 0;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tab-pane.active .tab-content {
+    margin-top: 60px;
+}
+
+.chat-dialog {
+    padding: 0;
+    padding-top: 15px;
+    bottom: 10px;
+}
+
+.chat-guide {
+    overflow: hidden;
+}
+
+.chat-dialog .send-btn {
+    right: 0;
+}
+
+.chat .handle-bar {
+    right: 15px;
+    margin-bottom: 60px;
+}
+
+/**
+ * Chat emojis size fix
+ */
+
+.chat-list li {
+    color: var(--light);
+    font-size: 14px;
+    line-height: 20px;
+    word-break: break-word;
+}
+
+.chat-list li .emoji {
+	width: 16px;
+	height: 16px;
+}
+
+.chat-list li .nick {
+    margin-right: 6px;
+}
+
+.chat-list li .sc-mention {
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.chat-list li .gift-icon {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px
+}
+
+.chat-list li .level-icon {
+    top: -3px
+}
+
+.chat-list li .admin-im .sc-mention {
+    background-color: rgba(97, 123, 255, 0.2);
+}
+
+.chat-list li .anchor-im .sc-mention {
+    background-color: rgba(255, 158, 80, 0.2);
+}
+
+.chat-list li p {
+    display: inline;
+}
+
+.sc-chat-addons {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.user-card {
+    left: auto !important;
+    right: 25%;
+    top: 205px !important;
+}
+
+.iggfe-player--dan-mu img.emoji {
+    width: 20px;
+    height: 20px;
+}
+
+.chat-textarea [contenteditable=true]:empty:before{
+    content: attr(placeholder);
+    display: block;
+    color: var(--text-dark);
+}
+
+.chat-textarea [contenteditable=true] {
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    background: none;
+    font-family: Microsoft YaHei, Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif;
+}
+
+.chat-textarea [contenteditable=true] .emoji {
+    width: 14px !important;
+}
+
+.chat-textarea [contenteditable=true] .mention {
+    background-color: var(--yellow);
+    color: var(--dark);
+    padding: 2px;
+    display: inline;
+}
+
+.chat-list.sc-chat-list {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.chat-lists {
+    padding-right: 0;
+}

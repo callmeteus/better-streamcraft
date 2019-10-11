@@ -1,0 +1,28 @@
+{
+	"2021759331": {
+		"catbat": {
+			"char": "\ue000",
+			"image": "catbat.png",
+			"keywords": ["prometeus", "cat", "bat"],
+			"category": "Prometeus",
+		},
+		"catcrying": {
+			"char": "\ue001",
+			"image": "catcrying.webp",
+			"keywords": ["prometeus", "cat", "crying"],
+			"category": "Prometeus",
+		},
+		"catbig": {
+			"char": "\ue002",
+			"image": "catbit.webp",
+			"keywords": ["prometeus", "cat", "catbig"],
+			"category": "Prometeus",
+		},
+		"catsweating": {
+			"char": "\ue003",
+			"image": "catsweating.webp",
+			"keywords": ["prometeus", "cat", "sweating"],
+			"category": "Prometeus",
+		}
+	}
+}

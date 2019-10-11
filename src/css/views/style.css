@@ -1,0 +1,95 @@
+/**
+ * Declare StreamCraft colors
+ */
+
+:root {
+	--default: #1f1f1f;
+	--yellow: #dac866;
+	--dark: #373739;
+	--darker: #161616;
+	--light: #b9bcc2;
+	--text-dark: #5f6368;
+}
+
+.sc-btn {
+	background-color: var(--dark);
+    color: #eceff4;
+    border: none;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sc-btn:hover {
+	background-color: var(--yellow);
+	color: var(--darker);
+}
+
+.sc-btn[disabled],
+.sc-btn.disabled {
+	pointer-events: none;
+	opacity: 0.75;
+}
+
+.sc-btn.sc-btn-block {
+	display: block;
+	width: 100%;
+}
+
+.sc-input {
+    font-size: 14px;
+    line-height: 20px;
+    background: none;
+    padding: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: Microsoft YaHei, Helvetica Neue, Helvetica, STHeiTi, Arial, sans-serif;
+    will-change: box-shadow, -webkit-box-shadow, -moz-box-shadow;
+    transition: box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease, -moz-box-shadow 0.5s ease; 
+
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.sc-input:focus,
+.sc-input:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.1);
+}
+
+.sc-input:focus {
+	outline: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sc-input.sc-input-block {
+	width: 100%;
+	display: block;
+	margin-bottom: 1em;
+}
+
+.sc-text-yellow {
+	color: var(--yellow) !important;
+}
+
+.sc-text-white {
+	color: #fff;
+}
+
+.sc-input-helper {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #ccc;
+}
+
+::-webkit-scrollbar-button{ display: block; height: 0; border-radius: 0px; background-color: #3f3f3f; }
+::-webkit-scrollbar-thumb { background-color: var(--darker); }
+::-webkit-scrollbar-track { background-color: var(--dark); }
+::-webkit-scrollbar {
+	width: 7px;
+	border: 5px solid transparent;
+}
+
+.sc-hidden {
+	display: none;
+}

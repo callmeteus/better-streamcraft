@@ -1,0 +1,120 @@
+/**
+ * Sidebar fix
+ * Moving to top side
+ */
+
+.wrapper .side-bar {
+	position: fixed;
+    top: 60px; 		/* StreamCraft's top bar have 60px height */
+    height: 49px;
+    padding: 5px 0px;
+
+    border-bottom: 1px solid #323232;
+    border-top: 1px solid #323232;
+    background: url(https://streamcraft.com/static/images/bg-repeat.png) repeat 0 0;
+
+    width: 100%;
+    left: 0;
+    padding-left: 2%;
+    padding-right: 32.5em;
+}
+
+.wrapper .side-bar:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+.wrapper .side-bar .sider-tab.anchor-bar,
+.wrapper .side-bar .side-menu {
+	position: relative;
+    padding: 0;
+    height: inherit;
+    display: block;
+}
+
+/**
+ * Anchor bar (username, id, level and badges)
+ */
+
+.wrapper .side-bar .sider-tab.anchor-bar {
+	border-bottom: none;
+    text-align: left;
+    width: 30%;
+    float: left;
+}
+
+.wrapper .side-bar .sider-tab.anchor-bar div {
+    display: inline-block;
+}
+
+.wrapper .side-bar .sider-tab.anchor-bar div .handle-follow {
+    margin-top: 0 !important;
+    margin-left: 10%;
+}
+
+/**
+ * Anchor menu (channel, replay, clips, followers...)
+ */
+
+.wrapper .side-bar .side-menu {
+    width: 70%;
+    margin: 0;
+    margin-top: -5px;
+    z-index: 1;
+    float: right;
+    max-width: 700px;
+}
+
+.wrapper .side-bar .side-menu nav {
+	display: flex;
+	height: inherit;
+}
+
+.wrapper .side-bar .side-menu a.sider-tab {
+    display: inline-block;
+    width: 9.2vw;
+    text-align: center;
+    margin: 0;
+    height: 40px;
+    margin-top: 7px;
+    padding-top: 5px;
+}
+
+.wrapper .side-bar .side-menu a.sider-tab.active {
+	border-right: none;
+	border-bottom: 3px solid #d8c467;
+}
+
+/**
+ * Content and channel
+ */
+
+.wrapper .content {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.wrapper .content .channel,
+.wrapper .content .personal-main {
+	padding-top: calc(36px + 2%);
+}
+
+/**
+ * Live video
+ */
+
+.channel .player-bar .no-live-wrap .go-back {
+    display: none;
+}
+
+.hotlive {
+    margin-top: 2em;
+    border-top: 1px solid #323232;
+    padding-top: 2em;
+}

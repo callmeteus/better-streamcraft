@@ -1,0 +1,100 @@
+.header__user, .anchor-bar .avatar {
+	float: left;
+	height: 36px !important;
+	width: 36px !important;
+	margin-right: 12px;
+}
+
+.header__user .header__user__nick,
+.header__user .badge {
+    display: none;
+}
+
+.header__lang {
+    right: 0;
+}
+
+.sider-tab.anchor-bar img,
+.sider-tab.anchor-bar p {
+	display: inline-block;
+}
+
+.sider-tab.anchor-bar .uid {
+	display: none;
+}
+
+.sider-tab.anchor-bar p {
+	padding-top: 3px;
+}
+
+.video-list li .info-bar .game, .video-list li .info-bar .nick {
+	max-width: 100% !important;
+}
+
+.nick-bar img.emoji,
+.instro img.emoji {
+    width: 19px;
+    height: 19px;
+}
+
+.handle-follow {
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.handle-notification {
+    min-width: 30px;
+    margin-left: 9px;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.handle-notification.enabled {
+	background-color: var(--yellow);
+	color: var(--default);
+}
+
+.header .logo img {
+    width: 200px;
+    height: auto;
+}
+
+.header__logo {
+    overflow: hidden;
+    width: 70px !important;
+}
+
+.header .handle-bar .user-bar,
+.header .handle-bar .user-login-bar {
+	height: 31px;
+}
+
+.header .handle-bar .user-bar>.nick {
+    display: none;
+}
+
+.header .handle-bar .user-bar>.avatar {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+#userBar {
+    padding: 0;
+}
+
+.user-handle-bar,
+.feed-bar,
+.download-bar {
+    top: 44px;
+    right: -1px;
+}
+
+.dropdown-bar.feed-bar,
+.download-bar {
+    top: 56px;
+}

@@ -1,0 +1,7 @@
+.sc-nickname-picker .sc-nickname-picker-nickname.active,
+.sc-nickname-picker .sc-nickname-picker-nickname:hover {
+    background-color: #f5db64;
+    transition: all 0.5s ease;
+    color: #000;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+app.on(300141, (data) => {
+	const content 		= JSON.parse(data.Data.Buff);
+	const type 			= data.DataType;
+
+	const message 		= textify(content.Content.Buff);
+	const to 			= content.ToUserName.Buff.split("@")[0];
+	const from 			= content.FromUserName.Buff.split("@")[0];
+
+	const toName 		= textify($("<template>" + content.ExternalInfo + "</template>").find("external[nickname]").attr("nickname"));
+
+	console.log(from, to, toName, message);
+
+	const $chat 		= $(".news-wrap");
+	let $user 			= $chat.find("[data-id=" + to + "]");
+
+	if (!$user.length) {
+		$chat.find(".chat-face-wrap").append(`
+			<div class="chat-ov" data-id="${to}">
+				<img src="http://wegamers.176.com/GameIM/system_source/serviceimg_sc" class="face-head" />
+
+				<div class="face-content">
+					<p class="name">${toName}</p>
+					<p class="text">${message}</p>
+					<p class="time"></p>
+				</div>
+			</div>
+		`);
+	} else {
+		$user.find(".text").html(message);
+		$user.find(".name").html(from);
+	}
+});

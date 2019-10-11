@@ -1,0 +1,10 @@
+.video-info .status .viewers {
+	margin-right: 5px;
+	color: #71767c;
+	font-size: 12px;
+}
+
+.video-info .status .viewers em {
+	color: #9c9fa4;
+	font-style: normal;
+}

@@ -1,0 +1,16 @@
+.mission .profile-content {
+    width: 69vw !important;
+    z-index: 200 !important;
+}
+
+.mission .platform,
+.mission .anchor,
+.mission .new {
+    width: 100% !important;
+}
+
+.mission .mission-week,
+.mission .mission-daily {
+    width: 50% !important;
+    overflow: hidden;
+}

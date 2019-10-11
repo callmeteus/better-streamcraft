@@ -1,0 +1,19 @@
+.dropdown-menu {
+    min-height: auto;
+
+    background-color: rgba(37,37,38,.99);
+    -webkit-box-shadow:0 0 5px 1px rgba(0,0,0,.5);
+    box-shadow:0 0 5px 1px rgba(0,0,0,.5);
+
+    color: var(--light);
+
+    text-align: left;
+
+    width: 15vw;
+
+    line-height: unset;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}

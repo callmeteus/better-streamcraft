@@ -1,0 +1,41 @@
+/**
+ * Scroll list responsive fix
+ */
+
+.personal-main li {
+    width: 18% !important;
+    margin: 1% !important;
+}
+
+.personal-main li .thumb {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.personal-main li .thumb:after {
+    content: "";
+    padding-bottom: 56%;
+    display: block;
+}
+
+.v-c-a-r-b {
+    padding-top: 48px;
+}
+
+.v-c-a-r-b .tab {
+    top: 3px;
+    width: 100%;
+    margin: 0;
+}
+
+.v-c-a-r-b .tab li {
+    width: 50%;
+    margin-right: 0 !important;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1368px) {
+	.personal-main li {
+		width: 23% !important;
+	}
+}

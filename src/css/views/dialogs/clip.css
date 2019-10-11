@@ -1,0 +1,8 @@
+.sc-dialog.sc-clip-dialog {
+	max-height: 100%;
+}
+
+.sc-dialog.sc-clip-dialog video {
+	width: 100%;
+	height: 27.5vw;
+}

@@ -1,0 +1,67 @@
+.channel-sider .sider-item.chat-online .tab {
+    display: none;
+}
+
+.channel-sider .sider-item.chat-online,
+.channel-sider .manage-viewer {
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+.channel-sider .viewer-list-wrap, {
+	padding: 0 !important;
+}
+
+.sider-item .tab {
+    height: 48px !important;
+}
+
+.sc-tab-container {
+	display: block;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid #373739;
+    padding-top: 10px;
+}
+
+.channel-sider {
+	width: 24.5%;
+    right: 2%;
+    z-index: 11;
+    padding-top: 0 !important;
+    background: none;
+    border-left: 1px solid #323232;
+    top: 109px !important;
+}
+
+.channel-sider .sider-item {
+    padding-top: 0 !important;
+    margin-top: -50px;
+}
+
+.channel-sider .sider-item.chat-online {
+    margin-top: 0;
+}
+
+.channel-sider .tab ul {
+	width: 100%;
+}
+
+.channel-sider .tab ul li {
+	padding-top: 3px;
+    width: 33%;
+    margin-right: 0 !important;
+    text-align: center;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.viewer-list-wrap {
+    height: calc(100% + 50px) !important;
+}
+
+.top-three .nick img.emoji {
+    width: 20px;
+}
